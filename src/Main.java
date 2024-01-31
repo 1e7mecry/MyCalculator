@@ -42,7 +42,7 @@ public class Main {
             } else {
                 throw new IllegalArgumentException("Используйте числа от I до X");
             }
-        } if (parseNumber(num1) >= 0 && parseNumber(num1) <= 10 && parseNumber(num2) > 0 && parseNumber(num2) <= 10){
+        } if (parseNumber(num1) > 0 && parseNumber(num1) <= 10 && parseNumber(num2) > 0 && parseNumber(num2) <= 10){
             int agent1s = parseNumber(num1);
             int agent2s = parseNumber(num2);
             if (operator.equals("+")){
